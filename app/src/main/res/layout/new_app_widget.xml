@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/widgetView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dg_widget_round_shape"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+
+    android:padding="@dimen/widget_margin"
+    android:theme="@style/ThemeOverlay.MSentry.AppWidgetContainer">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/imageWidget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+<!--    android:background="?attr/appWidgetBackgroundColor"-->
+
+
+</LinearLayout>
+
+

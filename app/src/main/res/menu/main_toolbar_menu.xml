@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--    <item-->
+    <!--        android:id="@+id/camera"-->
+    <!--        android:icon="@drawable/camera_icon"-->
+    <!--        android:title="완료"-->
+    <!--        app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/gallery"
+        android:icon="@drawable/gallery_icon"
+        android:title="갤러리 가져오기"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/reissue"
+        android:title="바코드 재발급"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/ic_baseline_brightness_medium_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <SeekBar
+            android:progressBackgroundTint="@android:color/darker_gray"
+            android:backgroundTint="@android:color/darker_gray"
+
+            android:thumbTint="#f7e600"
+            android:progressTint="#f7e600"
+            android:progress="50"
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonChoose"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/light_blue_900"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="바코드 이미지로 사용하기"/>
+
+
+
+</LinearLayout>
